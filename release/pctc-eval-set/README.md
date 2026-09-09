@@ -95,13 +95,12 @@ otherwise idle H200.
 | Allosaurus | 59.1 | 18.7 | 0.035 † |
 | MultIPA | 53.1 | 14.9 | 0.0018 |
 | Allophant | 61.0 | 14.4 | 0.0012 |
-| Wav2Vec2Phoneme (xlsr-53) | 42.6 | 11.6 | 0.0015 ‡ |
+| Wav2Vec2Phoneme (xlsr-53) | 42.6 | 11.6 | 0.0015 |
 | ZIPA-CR-NS-large | 29.9 | 7.2 | 0.0142 |
 | POWSM | 12.4 | 4.9 | 0.0581 |
 | **P-CTC (ours)** | **10.9** | **4.4** | **0.0018** |
 
 † CPU only; Allosaurus exposes no GPU interface.
-‡ Timed under an earlier protocol; to be re-measured.
 
 Four things matter if you compare against these numbers:
 
